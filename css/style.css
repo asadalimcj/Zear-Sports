@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+  font-size: 14px;
+  
+}
+p, h1, h2, h3, h4, h5, h6{
+  padding: 5px;
+}
+#Intro{
+  background-color: brown;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  padding: 30px;
+}
+#Intro a{
+  color: white;
+  font-size: larger;
+}
+.navlogo{
+  height: 60px;
+  width: 60px;
+  padding: 10px;
+}
+
+#pic-carosal
+{
+  /* padding: 7% 15%; */
+  text-align: center;
+  background-color: brown;
+  color:black;
+  /* background-image: url("../image/background.jpg"); */
+}
+#pic-carosal img{
+  height: 600px;
+  width: 1500px;
+}
+
+#services
+{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 50px;
+  background-color: white;
+}
+.size
+{
+  padding: 100px;
+  line-height: 2rem;
+  border: solid 1px;
+  border-color: grey;
+}
+.size:hover .s-item {
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  border: solid 1px;
+  border-color: brown;
+}
+
+.size .pay
+{
+  padding-bottom: 30px;
+}
+
+#measurement{
+  background-color: brown;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  /* justify-items: center; */
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 14px;
+}
+#measurement:hover
+{
+  box-shadow: 1px 1px 1px 1px;
+  border-radius: solid 1px;
+  border-color: grey;
+}
+
+.custom{
+  padding: 150px;
+}
+
+.custom-imag{
+  height: 550px;
+  width: 550px;
+}
+.imag-price
+{
+  height: 350px;
+  width: 300px;
+}
+#pricing{
+  padding: 100px;
+  text-align: center;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 14px;
+}
+.price-column{
+  padding: 10px;
+}
+
+.b-color a{
+  color: white;
+}
+
+#last-part {
+  background-color: hsl(192, 100%, 9%);
+  color: white;
+  padding: 20px;
+  padding-top: 100px;
+}
+.logos img {
+  float: left;
+}
+.logos p{
+  padding-left: 40px;
+}
+.mono {
+  margin: 10px;
+  color: wheat;
+}
+.mono:hover {
+  color: brown;
+}
+.last-content {
+  text-align: end;
+}
+@media (max-width: 1000px)
+{
+  .custom-imag{
+    height: 400px;
+    width: 250px;
+    text-align: center;
+  }
+  .imag-price
+  {
+    height: 400px;
+    width: 250px;
+  }
+  .monogram {
+    text-align: center;
+  }
+}
+
+@media (max-width:900px) or (min-width:1440px)
+{
+  #Intro{
+    text-align: center;
+  }
+  .hero {
+    height: 400px;
+    width: 350px;
+  }
+  .text {
+    padding:0;
+    padding-bottom: 50px;
+  }
+}
