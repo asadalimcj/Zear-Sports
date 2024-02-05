@@ -144,6 +144,22 @@ p, h1, h2, h3, h4, h5, h6{
     text-align: center;
   }
 }
+@media (max-width: 375px)
+{
+  .custom-imag{
+    height: 220px;
+    width: 150px;
+    text-align: center;
+  }
+  .imag-price
+  {
+    height: 215px;
+    width: 140px;
+  }
+  .monogram {
+    text-align: center;
+  }
+}
 
 @media (max-width:900px) or (min-width:1440px)
 {
